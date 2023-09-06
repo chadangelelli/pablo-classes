@@ -47,6 +47,10 @@
 - *ctrl+W+W -*   switch between panes
 - *tab -*        navigate between tabs
 
+## TERMINAL (iTerm2)
+...
+...
+...
 
 ## GIT / GITHUB
 
