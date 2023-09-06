@@ -1,53 +1,55 @@
--------------------------NVIM
+PABLOs CHEET SHEAT
 
------movimientos
+NVIM-----------------------
 
-h: cursor izquierda
-j: cursor abajo
-k: cursor arriba
-l: cursor derecha
+# CURSOR MOVEMENT
 
-w: avanza inicio siguiente palabra
-e: avanza final siguiente palabra
-b: retrocede inicio anterior palabra
+h:  cursor izquierda
+j:  cursor abajo
+k:  cursor arriba
+l:  cursor derecha
+
+w:  avanza inicio siguiente palabra
+e:  avanza final siguiente palabra
+b:  retrocede inicio anterior palabra
 ge: retrocede final anterior palabra
 
-$: avanza final línea
-0: regresa inicio línea
+$:  avanza final línea
+0:  regresa inicio línea
 
 gg: primera línea documento
-G: última línea documento
+G:  última línea documento
 
-----insertar
+# INSERT
+a:  inserta después cursor
+I:  inserta inicio línea
+A:  inserta final línea
+o:  inserta nueva línea debajo
+O:  inserta nueva línea arriba
 
-i: inserta antes cursor
-a: inserta después cursor
-I: inserta inicio línea
-A: inserta final línea
-o: inserta nueva línea debajo
-O: inserta nueva línea arriba
+# EDIT
+r:  reemplazar caracter
+s:  eliminar caracter y sustituir
+u:  deshacer
+U:  deshacer última línea
 
------editar
+# VISUAL mode
+v:  iniciar visual mode
+V:  inciar visual mode línea
 
-r: reemplazar caracter
-s: eliminar caracter y sustituir
-u: deshacer
-U: deshacer última línea
+# GLOBAL
+:q      salir
+:q!     salir sin preguntar
+:wq!    guardar y salir
 
------visual mode
-
-v: iniciar visual mode
-V: inciar visual mode línea
-
------comandos
-
-:q  salir
-:q! salir sin preguntar
-:wq! guardar y salir
-
------nav
-
+# NAV
 ctrl+N: open navegation panel
-ctrl+W+W: switch between panels
+ctrl+W+W: switch between panes
 tab: navigate between tabs
 
+
+# GIT / GITHUB
+
+- add file to Git: "git add ." or "git add FILENAME"
+- save file in Git ("committing"): "git commit -a" or "git commit FILENAME"
+- saving files to Git (remotely to share) ("pushing"): "git push origin main"
