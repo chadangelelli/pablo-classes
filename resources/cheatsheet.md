@@ -55,6 +55,7 @@
 - *cd... -*                         cambia directorio de trabajo al directorio de arriba
 - *cat ^[FILE] -*                   envía contenido de un archivo a la terminal (entre otras funciones)
 - *mkdir [FOLDER_NAME] -*           crea nueva carpeta con nombre deseado
+- *touch [FILE_NAME] -*             crea un archivo
 - *cp [FILE] [DUPLICATE_FILE] -*    hacia copia de archivo
 - *mv [FILE] [MOVED_FILE] -*        mueve archivos y carpetas, también para renombrar
 - *rm [FILE] -*                     Borrar archivo
