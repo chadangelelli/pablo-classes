@@ -1,4 +1,4 @@
-# PABLOs CHEET SHEAT
+# PABLOs CHEAT SHEAT
 
 ## NVIM ##
 
@@ -48,12 +48,20 @@
 - *tab -*        navigate between tabs
 
 ## TERMINAL (iTerm2)
-...
-...
-...
+- *ls -¨*                           enumera los archivos y carpetas en el directorio actual
+- *pwd -*                           muestra ruta actual
+- *cd -*                            cambia directorio de trabajo actual. Uno solo lleva a directorio de inicio
+- *cd [FOLDER] -*                   cambiar directorio a [FOLDER] deseado
+- *cd... -*                         cambia directorio de trabajo al directorio de arriba
+- *cat ^[FILE] -*                   envía contenido de un archivo a la terminal (entre otras funciones)
+- *mkdir [FOLDER_NAME] -*           crea nueva carpeta con nombre deseado
+- *cp [FILE] [DUPLICATE_FILE] -*    hacia copia de archivo
+- *mv [FILE] [MOVED_FILE] -*        mueve archivos y carpetas, también para renombrar
+- *rm [FILE] -*                     Borrar archivo
+- *rm -r [FOLDER] -*                Elimina [FOLDER] y todo adentro de ello
 
 ## GIT / GITHUB
 
-- *git add .* or *git add FILENAME -* add file to Git
-- *git commit -a* or *git commit FILENAME -* save file in Git ("committing")
+- *git add .* or *git add [FILENAME] -* add file to Git
+- *git commit -a* or *git commit [FILENAME] -* save file in Git ("committing")
 - *git push origin main -* saving files to Git (remotely to share) ("pushing")
