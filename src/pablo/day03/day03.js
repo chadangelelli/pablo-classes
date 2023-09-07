@@ -7,7 +7,7 @@ var people = {
     email: "chad@tes.com",
     phone: "123-456-789",
     favoriteGenre: "",
-    favoriteArtists: "<idArtist>",
+    favoriteArtists: ["Pink Floyd", "Grateful Dead"], // HOMEWORK: find 2 real albums for each artist AND their genre of music
   },
   idUser2: {
     firstName: "Pablo",
@@ -15,7 +15,7 @@ var people = {
     email: "pablo@something.com",
     phone: "5555-5555",
     favoriteGenre: "",
-    favoriteArtists: "<idArtist>",
+    favoriteArtists: ["<idArtist>,<idArtist>"],
   },
   idUser3: {
     firstName: "Caro",
@@ -23,7 +23,7 @@ var people = {
     email: "caro@algo.com",
     phone: "248-238-238",
     favoriteGenre: "",
-    favoriteArtists: "<idArtist>",
+    favoriteArtists: ["Portis Head", "Moriarty"],
   },
   idUser4: {
     firstName: "Pam",
@@ -31,7 +31,7 @@ var people = {
     email: "pam@redin.com",
     phone: "000-999-000",
     favoriteGenre: "",
-    favoriteArtists: "<idArtist>",
+    favoriteArtists: ["<idArtist>,<idArtist>"],
   },
 };
 
@@ -41,7 +41,7 @@ var artists = {
     artistGenre: "punk rock",
   }, 
   idArtist2: {
-    artistName: "",
+    artistName: "Grateful Dead", // HOMEWORK: fill in all this data like this example
     artistGenre: "",
   }, 
   idArtist3: {
