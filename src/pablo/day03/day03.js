@@ -27,6 +27,74 @@ var people = {
   },
 };
 
-var music = {
+var artists = {
+  idArtist1: {
 
-}
+  }, 
+  idArtist2: {
+
+  }, 
+  idArtist3: {
+
+  }, 
+  idArtist4: {
+ 
+  }, 
+  idArtist5: {
+
+  }, 
+  idArtist6: {
+
+  }, 
+  idArtist7: {
+
+  },
+  idArtist8: {
+
+  },
+};
+
+
+
+var albums = {
+  idAlbum1: {
+
+  }, 
+  idAlbum2: {
+
+  }, 
+  idAlbum3: {
+
+  }, 
+  idAlbum4: {
+
+  }, 
+  idAlbum5: {
+
+  }, 
+  idAlbum6: {
+
+  }, 
+};
+
+var genres = {
+  idGenre1: {
+
+  }, 
+  idGenre2: {
+
+  }, 
+  idGenre3: {
+
+  }, 
+  idGenre4: {
+
+  }, 
+  idGenre5: {
+
+  }, 
+  idGenre6: {
+
+  }, 
+};
+
