@@ -151,7 +151,7 @@ var albums = {
     albumTitle: "American Beauty",
     albumYear: "1970",
     albumSongs: [
-      "Box of Rain",,
+      "Box of Rain",
 			"Friend of the Devil",
 			"Sugar Magnolia",
 			"Operator",
