@@ -6,72 +6,69 @@ var people = {
     lastName: "Cocodrilo",
     email: "pablo@something.com",
     phone: "5555-5555",
-    favoriteGenre: "",
-    favoriteArtists: ["The Clash", "Beirut"],
+    favoriteArtists: ["idArtist1", "idArtist2"],
   },
   idUser2: {
     firstName: "Chad",
     lastName: "Angelelli",
     email: "chad@tes.com",
     phone: "123-456-789",
-    favoriteGenre: "",
-    favoriteArtists: ["Pink Floyd", "Grateful Dead"],
+    favoriteArtists: ["idArtist3", "idArtist4"],
   },
   idUser3: {
     firstName: "Pam",
     lastName: "Redin",
     email: "pam@redin.com",
     phone: "000-999-000",
-    favoriteGenre: "",
-    favoriteArtists: ["Travis", "Karol G"],
+    favoriteArtists: ["idArtist5", "idArtist6"],
   },
   idUser4: {
     firstName: "Caro",
     lastName: "Castañeda",
     email: "caro@algo.com",
     phone: "248-238-238",
-    favoriteGenre: "",
-    favoriteArtists: ["Portishead", "Moriarty"],
+    favoriteArtists: ["idArtist7", "idArtist8"],
   },
 };
 
 var artists = {
-  idArtist1: {
+  "idArtist1": {
     artistName: "The Clash",
-    artistGenre: "Punk rock",
+    artistGenre: "idGenre1",
   }, 
-  idArtist2: {
+  "idArtist2": {
     artistName: "Beirut",
-    artistGenre: "Indie folk",
+    artistGenre: "idGenre2",
   }, 
-  idArtist3: {
+  "idArtist3": {
     artistName: "Pink Floyd",
-    artistGenre: "Progressive rock",
+    artistGenre: "idGenre3",
   }, 
-  idArtist4: {
+  "idArtist4": {
     artistName: "Grateful Dead",
-    artistGenre: "Folk Rock",
+    artistGenre: "idGenre4",
   }, 
-  idArtist5: {
+  "idArtist5": {
     artistName: "Travis",
-    artistGenre: "Britpop",
+    artistGenre: "idGenre5",
   },
-  idArtist6: {
+  "idArtist6": {
     artistName: "Karol G",
-    artistGenre: "Latin trap",
+    artistGenre: "idGenre6",
   },
-  idArtist7: {
+  "idArtist7": {
     artistName: "Portishead",
-    artistGenre: "Trip hop",
+    artistGenre: "idGenre7",
   }, 
-  idArtist8: {
+  "idArtist8": {
     artistName: "Moriarty",
-    artistGenre: "Indie folk",
+    artistGenre: "idGenre2",
   }, 
 };
 
 var albums = {
   idAlbum1: {
+    albumArtist: "idArtist1",
     albumTitle: "London Calling",
     albumYear: "1979",
     albumSongs: [
@@ -97,6 +94,7 @@ var albums = {
     ],
   }, 
   idAlbum2: {
+    albumArtist: "idArtist2",
     albumTitle: "The Flying Club Cup",
     albumYear: "2007",
     albumSongs: [
@@ -116,6 +114,7 @@ var albums = {
     ],
   }, 
   idAlbum3: {
+    albumArtist: "idArtist3",
     albumTitle: "The Wall",
     albumYear: "1979",
     albumSongs: [
@@ -148,6 +147,7 @@ var albums = {
     ],
   },
   idAlbum4: {  
+    albumArtist: "idArtist4";
     albumTitle: "American Beauty",
     albumYear: "1970",
     albumSongs: [
@@ -164,6 +164,7 @@ var albums = {
     ],
   }, 
   idAlbum5: {
+    albumArtist: "idArtist5",
     albumTitle: "The Invisible Band",
     albumYear: "2001",
     albumSongs: [
@@ -182,6 +183,7 @@ var albums = {
     ],
   },
   idAlbum6: {
+    albumArtist: "idArtist6",
     albumTitle: "KG0516",
     albumYear: "2021",
     albumSongs: [
@@ -204,6 +206,7 @@ var albums = {
     ],
   },
   idAlbum7: {
+    albumArtist: "idArtist7",
     albumTitle: "Dummy",
     albumYear: "1994",
     albumSongs: [
@@ -221,6 +224,7 @@ var albums = {
     ],
   },
   idAlbum8: {
+    albumArtist: "idArtist8",
     albumTitle: "Epitaph",
     albumYear: "2015",
     albumSongs: [
@@ -243,12 +247,11 @@ var albums = {
 };
 
 var genres = {
-  idGenre1: "Punk rock", 
-  idGenre2: "Indie folk", 
-  idGenre3: "Progressive rock", 
-  idGenre4: "Folk Rock",
-  idGenre5: "Britpop", 
-  idGenre7: "Britpop",
-  idGenre8: "Latin trap",
+  "idGenre1": "Punk rock", 
+  "idGenre2": "Indie folk", 
+  "idGenre3": "Progressive rock", 
+  "idGenre4": "Folk Rock",
+  "idGenre5": "Britpop", 
+  "idGenre6": "Latin trap",
+  "idGenre7": "Trip hop",
 };
-
