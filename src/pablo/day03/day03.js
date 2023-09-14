@@ -35,34 +35,42 @@ var artists = {
   "idArtist1": {
     artistName: "The Clash",
     artistGenre: "idGenre1",
+    artistCountryOfOrigin: "idCountry1",
   }, 
   "idArtist2": {
     artistName: "Beirut",
     artistGenre: "idGenre2",
+    artistCountryOfOrigin: "idCountry2",
   }, 
   "idArtist3": {
     artistName: "Pink Floyd",
     artistGenre: "idGenre3",
+    artistCountryOfOrigin: "idCountry1",
   }, 
   "idArtist4": {
     artistName: "Grateful Dead",
     artistGenre: "idGenre4",
+    artistCountryOfOrigin: "idCountry2",
   }, 
   "idArtist5": {
     artistName: "Travis",
     artistGenre: "idGenre5",
+    artistCountryOfOrigin: "idCountry1",
   },
   "idArtist6": {
     artistName: "Karol G",
     artistGenre: "idGenre6",
+    artistCountryOfOrigin: "idCountry3",
   },
   "idArtist7": {
     artistName: "Portishead",
     artistGenre: "idGenre7",
+    artistCountryOfOrigin: "idCountry1",
   }, 
   "idArtist8": {
     artistName: "Moriarty",
     artistGenre: "idGenre2",
+    artistCountryOfOrigin: "idCountry4",
   }, 
 };
 
@@ -255,3 +263,27 @@ var genres = {
   "idGenre6": "Latin trap",
   "idGenre7": "Trip hop",
 };
+
+var countries = {
+  "idCountry1": {
+    countryNameEn: "United Kingdom",
+    countryNameEs: "Reino Unido",
+    countryAbbr: "UK",
+  },
+  "idCountry2": {
+    countryNameEn: "United States",
+    countryNameEs: "Estados Unidos",
+    countryAbbr: "EU",
+  },
+  "idCountry3": {
+    countryNameEn: "Colombia",
+    countryNameEs: "Colombia",
+    countryAbbr: "CO",
+  },
+  "idCountry4": {
+    countryNameEn: "France",
+    countryNameEs: "Francia",
+    countryAbbr: "FR",
+  },
+}
+
