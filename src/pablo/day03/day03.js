@@ -6,6 +6,7 @@ var people = {
     lastName: "Cocodrilo",
     email: "pablo@something.com",
     phone: "5555-5555",
+    countryOfOrigin: "Mexico",
     favoriteArtists: ["idArtist1", "idArtist2"],
   },
   idUser2: {
@@ -13,6 +14,7 @@ var people = {
     lastName: "Angelelli",
     email: "chad@tes.com",
     phone: "123-456-789",
+    countryOfOrigin: "United States",
     favoriteArtists: ["idArtist3", "idArtist4"],
   },
   idUser3: {
@@ -20,6 +22,7 @@ var people = {
     lastName: "Redin",
     email: "pam@redin.com",
     phone: "000-999-000",
+    countryOfOrigin: "Mexico",
     favoriteArtists: ["idArtist5", "idArtist6"],
   },
   idUser4: {
@@ -27,6 +30,7 @@ var people = {
     lastName: "Castañeda",
     email: "caro@algo.com",
     phone: "248-238-238",
+    countryOfOrigin: "Mexico",
     favoriteArtists: ["idArtist7", "idArtist8"],
   },
 };
