@@ -36,7 +36,7 @@ var people = {
     lastName: "Castañeda",
     email: "caro@algo.com",
     phone: "248-238-238",
-    countryOfOrigin: "idCoutry5",
+    countryOfOrigin: "idCountry5",
     favoriteArtists: ["idArtist7", "idArtist8"],
   },
 };
@@ -65,7 +65,7 @@ var artists = {
   "idArtist5": {
     artistName: "Travis",
     artistGenre: "idGenre5",
-    artistCountryOfOrigin: "idCountry1",
+    arhtistCountryOfOrigin: "idCountry1",
   },
   "idArtist6": {
     artistName: "Karol G",
