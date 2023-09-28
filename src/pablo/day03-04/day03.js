@@ -5,8 +5,6 @@
 // de qué país existen más usuarios
 // cuál es el promedio de tracks por albums
  //  
-}
-}
 
 var people = {
   idUser1: {
