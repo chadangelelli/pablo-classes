@@ -33,7 +33,7 @@ var people = {
   },
   idUser4: {
     firstName: "Caro",
-    lastName: "Castañeda",
+    lastName: "Castaneda",
     email: "caro@algo.com",
     phone: "248-238-238",
     countryOfOrigin: "idCountry5",
@@ -296,7 +296,7 @@ var countries = {
     countryAbbr: "FR",
   },
   "idCountry5": {
-    countryNameEn: "México",
+    countryNameEn: "Mexico",
     countryNameEs: "Mexico",
     countryAbbr: "MX",
   },
