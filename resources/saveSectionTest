@@ -1,0 +1,12 @@
+  2. Pulse  v  y mueva el cursor hasta el quinto elemento inferior. Vea que
+     el texto es resaltado.
+
+  3. Pulse el carácter  :  en la parte inferior de la pantalla aparecerá
+     :'<,'>
+
+  4. Pulse  w TEST  , donde TEST es un nombre de archivo que aún no existe.
+     Verifique que ve  :'<,'>w TEST  antes de pulsar <INTRO>.
+
+  5. Vim escribirá las líneas seleccionadas en el archivo TEST. Utilice
+     :!dir  o  :!ls  para verlo. ¡No lo elimine todavía! Lo utilizaremos
+     en la siguiente lección.
