@@ -65,7 +65,7 @@ var artists = {
   "idArtist5": {
     artistName: "Travis",
     artistGenre: "idGenre5",
-    arhtistCountryOfOrigin: "idCountry1",
+    artistCountryOfOrigin: "idCountry1",
   },
   "idArtist6": {
     artistName: "Karol G",
