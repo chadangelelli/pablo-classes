@@ -1,4 +1,4 @@
-# PABLOs CHEAT SHEAT
+# PABLOs CHEAT SHEET
 
 ## NVIM ##
 
